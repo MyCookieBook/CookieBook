@@ -1,9 +1,8 @@
+#Risk management
+
 | Risk | Provision |                   
 | --- | --- |
 | Data loss | Regular storing |               
 |           | Visioning the code |            
-| Lack of communication | Regular team meetings |        
-|  | Updating the Agile Board |     
-| Lack of time  | Working in sprints |            
-|  | Schedule a time buffer|        
-|  | Fill gaps in the spring break |
+| Lack of communication | Regular team meetings <br/> Updating the Agile Board |     
+| Lack of time  | Working in sprints <br/> Schedule a time buffer <br/> Fill gaps in the spring break |
