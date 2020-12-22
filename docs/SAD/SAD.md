@@ -54,6 +54,8 @@ Title | Date | Publishing organization |
 This SAD includes all the necessary architectural details of the project MyCookieBook. It contains a database diagram, that gives an overview about the structure of the project. Also architectural representation and goals are represented in this document.
 
 ## 2. Architectural Representation
+
+## 3. Architectural Goals and Constraints
 Our web application is build using Java, Angular, SpringBoot in the frontend and Java in the backend for now.
 IDE we use: JetBrains IntelliJ
 Database: MySQL
@@ -61,11 +63,10 @@ Languages:
 - Frontend: Java, Angular, SpringBoot
 - Backend: Java
 - Testing: JUnit, Mockito
-## 3. Architectural Goals and Constraints
-tbd
 ## 4. Use-Case View
 ![OUCD](https://github.com/zhibekbastian/CookieBook/blob/master/docs/UC/images/OUCD.JPG)
 ### 4.1 Use-Case Realizations
+- [UC Register](../UC/register.md)
 - [UC Edit profile](../UC/editProfile.md)
 - [UC Manage recipes](../UC/manageRecipes.md)
 
