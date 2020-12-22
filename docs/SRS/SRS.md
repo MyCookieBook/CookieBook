@@ -110,7 +110,7 @@ Project Management: YouTrack, Github
 
 ### 3.1 Functionality - Web Application
 ### 3.1.1 Register 
-[The register specification can be found here](https://github.com/zhibekbastian/CookieBook/blob/master/docs/UC/register.md)
+[The use case specification can be found here](https://github.com/zhibekbastian/CookieBook/blob/master/docs/UC/register.md)
 ### 3.1.2 User account
 We need an account system to give the users access for creating, sharing and commenting recipes. 
 ### 3.1.3 Edit Profile
