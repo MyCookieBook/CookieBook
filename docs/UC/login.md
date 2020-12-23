@@ -1,7 +1,7 @@
 # Cookiebook
-## Use Case Specification: Login/Logout
+## Use Case Specification: Log in
 ### Table of Contents
-- [1. Specification - Login/Logout](#1-specification-Login)
+- [1. Specification - Log in](#1-specification-Login)
     - [1.1 Brief Description](#11-brief-description)
 - [2. Flow of Events](#2-flow-of-events)
     - [2.1 Basic Flow](#21-basic-flow)
@@ -14,7 +14,7 @@
 - [6. Extension Points](#6-extension-points)
 - [7. Function Points](#7-function-points)
 
-## 1. Use Case Specification - Login
+## 1. Use Case Specification - Log in
 ##### 1.1 Brief Description
 This use case describes the log in and log out process of the user for the CookieBook application.
 
@@ -27,21 +27,14 @@ This use case describes the log in and log out process of the user for the Cooki
 ## 3. Special Requirements
 n/a
 ## 4. Preconditions
-The main preconditions for the log in are:
+The main preconditions for this use case are:
 - The user has internet connection.
 - The user opens the web-application.
 - The user is registered.
 - The user is not logged in.
-The main preconditions for the log out are:
-- The user has internet connection.
-- The user opens the web-application.
-- The user is logged in.
 ## 5. Postcondition
-The main postconditions for the log in are:
+The main postconditions for this use case are:
  - The user is logged in.
  - The user can manage his own CookieBook.
-The main postconditions for the log out are:
- - The user is logged out.
- - The user can log in.
 ## 6. Function Points
 tbd                                                                                                                                                        
