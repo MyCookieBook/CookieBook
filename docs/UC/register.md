@@ -23,7 +23,7 @@ This use case describes the registering process of the user to CookieBook applic
 #### 2.1.1 Activity Diagram
 ![Activity Diagram](images/UCD_Register.JPG)
 #### 2.1.2 Mockup
-tbd 
+![MockUp](images/Registerpage.JPG)
 #### 3. Special Requirements
 n/a
 #### 4. Preconditions
