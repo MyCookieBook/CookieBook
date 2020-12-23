@@ -16,7 +16,7 @@
 
 ## 1. Use Case Specification - Log in
 ##### 1.1 Brief Description
-This use case describes the log in and log out process of the user for the CookieBook application.
+This use case describes the log in process of the user for the CookieBook application.
 
 ## 2. Flow of Events
 ### 2.1 Basic Flow
