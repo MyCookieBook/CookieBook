@@ -31,7 +31,7 @@ The main preconditions for this use case are:
 - The user has internet connection.
 - The user opens the web-application.
 - The user is registered.
-- The user is not logged in.
+- The user is not already logged in.
 ## 5. Postcondition
 The main postconditions for this use case are:
  - The user is logged in.
