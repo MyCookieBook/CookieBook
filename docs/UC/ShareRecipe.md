@@ -24,7 +24,7 @@ This use case describes the share recipe process for the CookieBook application.
 ![Activity Diagram](images/UCD_ShareRecipe.JPG)
 #### 2.1.2 Mockup
 ![MockUp_ShareView](images/ShareRecipePage.JPG)
-![MockUp_GetView](images/ShareRecipePopUp.JPG)
+![MockUp_GetView](images/ShareRecipe_PopUp.JPG)
 ## 3. Special Requirements
 n/a
 ## 4. Preconditions
