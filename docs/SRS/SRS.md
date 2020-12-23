@@ -111,6 +111,8 @@ Project Management: YouTrack, Github
 ### 3.1 Functionality - Web Application
 ### 3.1.1 Register 
 [The use case specification can be found here](https://github.com/zhibekbastian/CookieBook/blob/master/docs/UC/register.md)
+### 3.1.2 Login 
+[The use case specification can be found here](https://github.com/zhibekbastian/CookieBook/blob/master/docs/UC/login.md)
 ### 3.1.2 User account
 We need an account system to give the users access for creating, sharing and commenting recipes. 
 ### 3.1.3 Edit Profile
@@ -119,6 +121,7 @@ We need an account system to give the users access for creating, sharing and com
 [The use case specification can be found here](https://github.com/zhibekbastian/CookieBook/blob/master/docs/UC/manageRecipes.md)
 ### 3.1.5 Share a recipe
 The user has the option to share recipes with selected friends and family members. If the user shares his recipe with someone, receiving user gets the shared recipe in his own CookieBook.
+[The use case specification can be found here](https://github.com/zhibekbastian/CookieBook/blob/master/docs/UC/ShareRecipe.md)
 ### 3.1.6 Bookmark favourite recipe
 The user can bookmark his favourite recipe to have faster access.
 ### 3.1.7 Leave comments and likes (optional)
