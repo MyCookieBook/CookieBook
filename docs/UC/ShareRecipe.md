@@ -21,7 +21,7 @@ This use case describes the share recipe process for the CookieBook application.
 ## 2. Flow of Events
 ### 2.1 Basic Flow
 #### 2.1.1 Activity Diagram
-![Activity Diagram](images/UCD_Login.JPG)
+![Activity Diagram](images/UCD_ShareRecipe.JPG)
 #### 2.1.2 Mockup
 ![MockUp_ShareView](images/ShareRecipePage.JPG)
 ![MockUp_GetView](images/ShareRecipePopUp.JPG)
