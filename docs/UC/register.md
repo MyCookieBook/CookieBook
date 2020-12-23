@@ -24,16 +24,16 @@ This use case describes the registering process of the user to CookieBook applic
 ![Activity Diagram](images/UCD_Register.JPG)
 #### 2.1.2 Mockup
 ![MockUp](images/Registerpage.JPG)
-#### 3. Special Requirements
+## 3. Special Requirements
 n/a
-#### 4. Preconditions
+## 4. Preconditions
 The main preconditions for this use case are:
 - The user has internet connection.
 - The user opens the web-application.
 - The user has an email address.
-#### 5. Postcondition
+## 5. Postcondition
  - The user is "member" of the community.
  - The user is logged in.
  - The user can manage his account.
-#### 6. Function Points
+## 6. Function Points
 tbd                                                                                                                                                        
