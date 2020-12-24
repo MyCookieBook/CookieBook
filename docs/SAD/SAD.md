@@ -54,28 +54,66 @@ Title | Date | Publishing organization |
 This SAD includes all the necessary architectural details of the project MyCookieBook. It contains a database diagram, that gives an overview about the structure of the project. Also architectural representation and goals are represented in this document.
 
 ## 2. Architectural Representation
-Our web application is build using Java, Angular, SpringBoot in the frontend and Java in the backend for now.
-IDE we use: JetBrains IntelliJ
-Database: MySQL
-Languages:
-- Frontend: Java, Angular, SpringBoot
-- Backend: Java
-- Testing: JUnit, Mockito
+This project uses the MVC Pattern for the frontend and the backend. So the model (data model and domain specific classes), the view (user interface) and the controller (controls the Application) are separated.
+In the Picture below the MVC Pattern will be shown:
+
+![MVC](https://github.com/zhibekbastian/CookieBook/blob/master/docs/Diagrams/MVC%20.svg)
+
+We will explain the MVC pattern more detailed in section 5. Logical View.
+
 ## 3. Architectural Goals and Constraints
-tbd
+### MVC
+The MVC pattern mentioned in chapter two, which is been in use by the frontend and backend, enables a clean software architecture with separate model, view and controller.
+
+### Frontend
+The web application is written in Java. We use Angular as the MVC Tool for the frontend.
+
+- Model: domain specific classes modeled after backend classes
+- View: activities
+- Controller: no controller available
+
+### Backend
+In the backend we also write in Java. The MVC Tool for the backend is Spring. 
+We use MySQL as our Database.
+
+- Model: domain specific classes
+- View: no view available
+- Controller: RESTController
+
 ## 4. Use-Case View
-![OUCD](https://github.com/zhibekbastian/CookieBook/blob/master/docs/UC/images/OUCD.JPG)
+![OUCD](https://github.com/zhibekbastian/CookieBook/blob/master/docs/UC/images/OUCD_Dec_20.JPG)
 ### 4.1 Use-Case Realizations
+- [UC Register](../UC/register.md)
 - [UC Edit profile](../UC/editProfile.md)
 - [UC Manage recipes](../UC/manageRecipes.md)
+- [UC Login](https://github.com/zhibekbastian/CookieBook/blob/master/docs/UC/login.md)
+- [UC share recipe](https://github.com/zhibekbastian/CookieBook/blob/master/docs/UC/ShareRecipe.md)
 
 ## 5. Logical View
-tbd
+# 5.1 Overview
+For our application the logical view looks like:
+
+![MVC](https://github.com/zhibekbastian/CookieBook/blob/master/docs/Diagrams/MVC%20.svg)
+
+In our case, the view is provided separately in the frontend. Only the view interacts with the user itself. 
+As we have described it above the model and view have connections to the controller.
+However the frontend does not interact with the model itself. The model classes are duplicated into the fronted for consistency reasons but are only used to populate the corresponding views.
+Any actual manipulation of the model is handled by the backend.
+
+# 5.2 Architecturally Significant Design Packages
+In this section you can find the generated class diagrams for backend and frontend.
+
+This is our backend (for now):
+![Backend](https://github.com/zhibekbastian/CookieBook/blob/master/docs/Diagrams/backend_24.12.2020.png)
+This is our frontend (for now):
+![Frontend](https://github.com/zhibekbastian/CookieBook/blob/master/docs/Diagrams/frontend_24.12.2020.png)
 ## 6. Process View
 n/a
 
 ## 7. Deployment View  
-The application runs on 
+Here you can see our deployement view diagram:
+
+![Deployment view](https://github.com/zhibekbastian/CookieBook/blob/master/docs/Diagrams/DeploymentView.JPG)
 ## 8. Implementation View
 Our class diagram is represented in the picture below. 
 ![Class-Diagram](../Diagrams/class_diagramm.png)
