@@ -84,7 +84,7 @@ In this case we want to develop a web application ‘MyCookieBook’ which allow
 Have a look at our [blog](https://mycookiebook.wordpress.com/) for more background information.
 ### 2.2 Use Case Diagram
 We created an overall use case diagram to have a better overview. 
-![OUCD](https://github.com/zhibekbastian/CookieBook/blob/master/docs/UC/images/OUCD.JPG)
+![OUCD](https://github.com/zhibekbastian/CookieBook/blob/master/docs/UC/images/OUCD_Dec_20.JPG)
 
 * Yellow: Planned until the end of december
 * Purple: Planned until the end of june
