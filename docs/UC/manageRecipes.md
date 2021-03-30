@@ -18,10 +18,10 @@ This use case allows the user to view recipes, add new recipes and edit them. It
 ## 2. Flow of Events
 ### 2.1 Basic Flow
 #### 2.1.1 Activity Diagram
-![Activity Diagram](https://github.com/zhibekbastian/CookieBook/blob/main/docs/UC/images/UCD_ManageRecipe.JPG)
+![Activity Diagram](https://github.com/zhibekbastian/CookieBook/blob/master/docs/UC/images/UCD_ManageRecipe.JPG)
 #### 2.1.2 Mockup
-![Recipe Page](https://github.com/zhibekbastian/CookieBook/blob/main/docs/UC/images/Recipepage.JPG)
-![Edit Recipe](https://github.com/zhibekbastian/CookieBook/blob/main/docs/UC/images/Recipepage_Edit_NewRecipe.JPG)
+![Recipe Page](https://github.com/zhibekbastian/CookieBook/blob/master/docs/UC/images/Recipepage.JPG)
+![Edit Recipe](https://github.com/zhibekbastian/CookieBook/blob/master/docs/UC/images/Recipepage_Edit_NewRecipe.JPG)
 
 ## 3. Special requirements
 ### 4. Preconditions
