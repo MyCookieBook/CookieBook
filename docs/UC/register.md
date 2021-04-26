@@ -36,4 +36,4 @@ The main preconditions for this use case are:
  - The user is logged in.
  - The user can manage his account.
 ## 6. Function Points
-tbd                                                                                                                                                        
+![Function Points](images/UC_register_fp.PNG)                                                                                                                                                       
