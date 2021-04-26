@@ -37,4 +37,4 @@ The main postconditions for this use case are:
  - The user is logged in.
  - The user can manage his own CookieBook.
 ## 6. Function Points
-tbd                                                                                                                                                        
+![Function Points](images/UC_Login_fp.PNG)
