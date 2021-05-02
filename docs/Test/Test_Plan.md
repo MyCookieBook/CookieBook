@@ -215,7 +215,7 @@ n/a
 tbd
 
 #### 7.6.2	Additional Automated Functional Test Scripts
-The Test Scripts can be found [here](https://github.com/nf3lix/Plandora/tree/master/app/src/androidTest/java/com/plandora)
+The Test Scripts can be found <!--[here](https://github.com/nf3lix/Plandora/tree/master/app/src/androidTest/java/com/plandora)-->
 
 #### 7.6.3	Test Guidelines
 tbd
