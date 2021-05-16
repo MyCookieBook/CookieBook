@@ -115,8 +115,8 @@ Here you can see our deployement view diagram:
 
 ![Deployment view](https://github.com/zhibekbastian/CookieBook/blob/master/docs/Diagrams/DeploymentView.JPG)
 ## 8. Implementation View
-Our class diagram is represented in the picture below. 
-![Class-Diagram](../Diagrams/class_diagramm.png)
+Our currently class diagram with the adapter design pattern is represented in the picture below. 
+![Class-Diagram](../Diagrams/Package restservice nachher.png)
 [Link to class diagram](../Diagrams/class_diagramm.png)
 ## 9. Data View
 ![DB Scheme](../Diagrams/DB_Scheme.png)
