@@ -93,7 +93,7 @@ We use MySQL as our Database.
 # 5.1 Overview
 For our application the logical view looks like:
 
-![MVC](https://github.com/zhibekbastian/CookieBook/blob/master/docs/Diagrams/MVC%20.svg)
+![MVC](Diagrams/MVC%20.svg)
 
 In our case, the view is provided separately in the frontend. Only the view interacts with the user itself. 
 As we have described it above the model and view have connections to the controller.
@@ -104,22 +104,22 @@ Any actual manipulation of the model is handled by the backend.
 In this section you can find the generated class diagrams for backend and frontend.
 
 This is our backend (for now):
-![Backend](https://github.com/zhibekbastian/CookieBook/blob/master/docs/Diagrams/backend_24.12.2020.png)
+![Backend](Diagrams/backend_24.12.2020.png)
 This is our frontend (for now):
-![Frontend](https://github.com/zhibekbastian/CookieBook/blob/master/docs/Diagrams/frontend_24.12.2020.png)
+![Frontend](Diagrams/frontend_24.12.2020.png)
 ## 6. Process View
 n/a
 
 ## 7. Deployment View  
 Here you can see our deployement view diagram:
 
-![Deployment view](https://github.com/zhibekbastian/CookieBook/blob/master/docs/Diagrams/DeploymentView.JPG)
+![Deployment view](Diagrams/DeploymentView.JPG)
 ## 8. Implementation View
 Our currently class diagram with the adapter design pattern is represented in the picture below. 
-![Class-Diagram](../Diagrams/Package%20restservice%20nachher.png)
-[Link to class diagram](../Diagrams/class_diagramm.png)
+![Class-Diagram](Diagrams/Package%20restservice%20nachher.png)
+[Link to class diagram](Diagrams/class_diagramm.png)
 ## 9. Data View
-![DB Scheme](../Diagrams/DB_Scheme.png)
+![DB Scheme](Diagrams/DB_Scheme.png)
 
 ## 10. Size and Performance
 tbd
