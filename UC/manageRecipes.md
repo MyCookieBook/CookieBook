@@ -18,7 +18,7 @@ This use case allows the user to view recipes, add new recipes and edit them. It
 ## 2. Flow of Events
 ### 2.1 Basic Flow
 #### 2.1.1 Activity Diagram
-![Activity Diagram](hhttps://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/UC/images/UCD_ManageRecipe.JPG)
+![Activity Diagram](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/UC/images/UCD_ManageRecipe.JPG)
 #### 2.1.2 Mockup
 ![Recipe Page](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/UC/images/Recipepage.JPG)
 ![Edit Recipe](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/UC/images/Recipepage_Edit_NewRecipe.JPG)
