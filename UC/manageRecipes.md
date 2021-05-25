@@ -39,7 +39,5 @@ The user can view recipes in his CookieBook.
 The user has the opportunity to edit selected recipe
 ### 5.4 Delete recipe
 The user can delete an existing recipe.
-## 6. Extension Points
-tbd
-## 7. Function Points
+## 6. Function Points
 ![Function Points](images/UC_managerecipe_fp.png)
