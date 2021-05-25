@@ -57,7 +57,7 @@ This SAD includes all the necessary architectural details of the project MyCooki
 This project uses the MVC Pattern for the frontend and the backend. So the model (data model and domain specific classes), the view (user interface) and the controller (controls the Application) are separated.
 In the Picture below the MVC Pattern will be shown:
 
-![MVC](Diagrams/MVC%20.svg)
+![MVC](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/Diagrams/MVC%20.svg)
 
 We will explain the MVC pattern more detailed in section 5. Logical View.
 
@@ -81,7 +81,7 @@ We use MySQL as our Database.
 - Controller: RESTController
 
 ## 4. Use-Case View
-![OUCD](images/OUCD_Mar_30.JPG)
+![OUCD](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/UC/images/OUCD_Mar_30.JPG)
 ### 4.1 Use-Case Realizations
 - [UC Register](../UC/register.md)
 - [UC Edit profile](../UC/editProfile.md)
@@ -93,7 +93,7 @@ We use MySQL as our Database.
 # 5.1 Overview
 For our application the logical view looks like:
 
-![MVC](blob/master/Diagrams/MVC%20.svg)
+![MVC](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/Diagrams/MVC%20.svg)
 
 In our case, the view is provided separately in the frontend. Only the view interacts with the user itself. 
 As we have described it above the model and view have connections to the controller.
@@ -104,9 +104,9 @@ Any actual manipulation of the model is handled by the backend.
 In this section you can find the generated class diagrams for backend and frontend.
 
 This is our backend (for now):
-![Backend](Diagrams/backend_24.12.2020.png)
+![Backend](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/Diagrams/backend_24.12.2020.png)
 This is our frontend (for now):
-![Frontend](Diagrams/frontend_24.12.2020.png)
+![Frontend](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/Diagrams/frontend_24.12.2020.png)
 ## 6. Process View
 n/a
 
