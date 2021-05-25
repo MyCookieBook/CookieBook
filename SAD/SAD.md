@@ -86,14 +86,14 @@ We use MySQL as our Database.
 - [UC Register](../UC/register.md)
 - [UC Edit profile](../UC/editProfile.md)
 - [UC Manage recipes](../UC/manageRecipes.md)
-- [UC Login](https://github.com/zhibekbastian/CookieBook/blob/master/docs/UC/login.md)
-- [UC share recipe](https://github.com/zhibekbastian/CookieBook/blob/master/docs/UC/ShareRecipe.md)
+- [UC Login](../UC/login.md)
+- [UC share recipe](../UC/ShareRecipe.md)
 
 ## 5. Logical View
 # 5.1 Overview
 For our application the logical view looks like:
 
-![MVC](Diagrams/MVC%20.svg)
+![MVC](blob/master/Diagrams/MVC%20.svg)
 
 In our case, the view is provided separately in the frontend. Only the view interacts with the user itself. 
 As we have described it above the model and view have connections to the controller.
@@ -113,7 +113,7 @@ n/a
 ## 7. Deployment View  
 Here you can see our deployement view diagram:
 
-![Deployment view](Diagrams/DeploymentView.JPG)
+![Deployment view](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/Diagrams/DeploymentView.JPG)
 ## 8. Implementation View
 Our currently class diagram with the adapter design pattern is represented in the picture below. 
 ![Class-Diagram](Diagrams/Package%20restservice%20nachher.png)
