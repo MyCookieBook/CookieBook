@@ -70,7 +70,7 @@ The web-application consists of the following features:
 | Title                                                                           | Date       | Publishing organization   |
 | --------------------------------------------------------------------------------|:----------:| ------------------------- |
 | [MyCookieBook Blog](https://mycookiebook.wordpress.com)                                                                    | 17.10.2020 | Wordpress                  |
-| [Github](https://github.com/zhibekbastian/CookieBook)                                                                    | 17.10.2020 | GitHub                  |
+| [Github](https://github.com/MyCookieBook)                                                                    | 17.10.2020 | GitHub                  |
 
 ### 1.5 Overview
 The following chapters give an overview of this project with our vision based on the overall use case diagram. It also contains information about the software requirements specification.
@@ -84,7 +84,7 @@ In this case we want to develop a web application ‘MyCookieBook’ which allow
 Have a look at our [blog](https://mycookiebook.wordpress.com/) for more background information.
 ### 2.2 Use Case Diagram
 We created an overall use case diagram to have a better overview. 
-![OUCD](https://github.com/zhibekbastian/CookieBook/blob/master/docs/UC/images/OUCD_Mar_30.JPG)
+![OUCD](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/UC/images/OUCD_Mar_30.JPG)
 
 * Yellow: Planned until the end of december
 * Purple: Planned until the end of june
@@ -110,18 +110,18 @@ Project Management: YouTrack, Github
 
 ### 3.1 Functionality - Web Application
 ### 3.1.1 Register 
-[The use case specification can be found here](https://github.com/zhibekbastian/CookieBook/blob/master/docs/UC/register.md)
+[The use case specification can be found here](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/UC/register.md)
 ### 3.1.2 Login 
-[The use case specification can be found here](https://github.com/zhibekbastian/CookieBook/blob/master/docs/UC/login.md)
+[The use case specification can be found here](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/UC/login.md)
 ### 3.1.2 User account
 We need an account system to give the users access for creating, sharing and commenting recipes. 
 ### 3.1.3 Edit Profile
-[The use case specification can be found here](https://github.com/zhibekbastian/CookieBook/blob/master/docs/UC/editProfile.md)
+[The use case specification can be found here](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/UC/editProfile.md)
 ### 3.1.4 Manage a recipe
-[The use case specification can be found here](https://github.com/zhibekbastian/CookieBook/blob/master/docs/UC/manageRecipes.md)
+[The use case specification can be found here](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/UC/manageRecipes.md)
 ### 3.1.5 Share a recipe
 The user has the option to share recipes with selected friends and family members. If the user shares his recipe with someone, receiving user gets the shared recipe in his own CookieBook.
-[The use case specification can be found here](https://github.com/zhibekbastian/CookieBook/blob/master/docs/UC/ShareRecipe.md)
+[The use case specification can be found here](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/UC/ShareRecipe.md)
 ### 3.1.6 Bookmark favourite recipe
 The user can bookmark his favourite recipe to have faster access.
 ### 3.1.7 Leave comments and likes (optional)
