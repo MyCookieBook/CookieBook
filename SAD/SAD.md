@@ -57,7 +57,7 @@ This SAD includes all the necessary architectural details of the project MyCooki
 This project uses the MVC Pattern for the frontend and the backend. So the model (data model and domain specific classes), the view (user interface) and the controller (controls the Application) are separated.
 In the Picture below the MVC Pattern will be shown:
 
-![MVC](https://github.com/zhibekbastian/CookieBook/blob/master/docs/Diagrams/MVC%20.svg)
+![MVC](Diagrams/MVC%20.svg)
 
 We will explain the MVC pattern more detailed in section 5. Logical View.
 
@@ -81,7 +81,7 @@ We use MySQL as our Database.
 - Controller: RESTController
 
 ## 4. Use-Case View
-![OUCD](https://github.com/zhibekbastian/CookieBook/blob/master/docs/UC/images/OUCD_Mar_30.JPG)
+![OUCD](images/OUCD_Mar_30.JPG)
 ### 4.1 Use-Case Realizations
 - [UC Register](../UC/register.md)
 - [UC Edit profile](../UC/editProfile.md)
