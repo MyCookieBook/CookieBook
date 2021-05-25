@@ -165,7 +165,7 @@ We are going to focus on building an intuitive modern-looking web-application to
 n/a
 ### 3.9 Interfaces
 #### 3.9.1 User Interfaces
-The user interfaces that will be implented:
+The user interfaces that will be implemented:
  - Profile page
  - Recipe overview
  - Recipe categories
