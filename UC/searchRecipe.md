@@ -1,7 +1,7 @@
 # Cookiebook
-## Use Case Specification: Share Recipe
+## Use Case Specification: Search for Recipe
 ### Table of Contents
-- [1. Specification - Share Recipe](#1-specification-ShareRecipe)
+- [1. Specification - Share Recipe](#1-specification-SearchRecipe)
     - [1.1 Brief Description](#11-brief-description)
 - [2. Flow of Events](#2-flow-of-events)
     - [2.1 Basic Flow](#21-basic-flow)
@@ -14,9 +14,9 @@
 - [6. Extension Points](#6-extension-points)
 - [7. Function Points](#7-function-points)
 
-## 1. Use Case Specification - Share Recipe
+## 1. Use Case Specification - Search for recipe
 ##### 1.1 Brief Description
-This use case describes the search recipe process for the CookieBook application.
+This use case describes the search for recipe process for the CookieBook application.
 
 ## 2. Flow of Events
 ### 2.1 Basic Flow
