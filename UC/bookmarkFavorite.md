@@ -38,4 +38,4 @@ The main preconditions for this use case are:
 The main postconditions for this use case are:
 The user marks a recipe as favorite and can access it faster.
 ## 6. Function Points
-![Function Points](images/UC_bookmarkFavorite_fp.png)                                                                                                                                               
+![Function Points](images/UC_bookmarkFavorite_fp_new.png)                                                                                                                                               

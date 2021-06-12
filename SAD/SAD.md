@@ -84,9 +84,10 @@ We use MySQL as our Database.
 ![OUCD](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/UC/images/OUCD_Mar_30.JPG)
 ### 4.1 Use-Case Realizations
 - [UC Register](../UC/register.md)
+- [UC Login](../UC/login.md)
 - [UC Edit profile](../UC/editProfile.md)
 - [UC Manage recipes](../UC/manageRecipes.md)
-- [UC Login](../UC/login.md)
+- [UC Bookmark favorite] (../UC/bookmarkFavorite.md)
 - [UC Search recipe](../UC/searchRecipe.md)
 
 ## 5. Logical View
