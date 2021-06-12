@@ -16,15 +16,15 @@
 
 ## 1. Use Case Specification - Share Recipe
 ##### 1.1 Brief Description
-This use case describes the share recipe process for the CookieBook application.
+This use case describes the search recipe process for the CookieBook application.
 
 ## 2. Flow of Events
 ### 2.1 Basic Flow
 #### 2.1.1 Activity Diagram
-![Activity Diagram](images/UCD_ShareRecipe.JPG)
+![Activity Diagram](images/UC_SearchRecipe_New.JPG)
 #### 2.1.2 Mockup
-![MockUp_ShareView](images/ShareRecipePage.JPG)
-![MockUp_GetView](images/ShareRecipe_PopUp.JPG)
+![MockUp_ShareView](images/)
+![MockUp_GetView](images/)
 ## 3. Special Requirements
 n/a
 ## 4. Preconditions
@@ -32,9 +32,9 @@ The main preconditions for this use case are:
 - The user has internet connection.
 - The user opens the web-application.
 - The user is logged in.
-- The user has opened a recipe.
+- The user moves to the search field and types keyword.
 ## 5. Postcondition
 The main postconditions for this use case are:
- - Another user can save the recipe in their own CookieBook.
+The user gets a recipes list, where the keyword is in the title, other, material, ingredients and steps.
 ## 6. Function Points
 tbd                                                                                                                                                        

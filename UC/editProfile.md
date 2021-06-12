@@ -20,7 +20,7 @@ This use case gives users the possibility to edit their profile settings. A user
 ## 2. Flow of Events
 ### 2.1 Basic Flow
 #### 2.1.1 Activity Diagram
-![Activity Diagram](images/UCD_EditProfile.JPG)
+![Activity Diagram](images/UCD_EditProfile_New.JPG)
 #### 2.1.2 Mockup
 ![Profile Page](images/Profilepage.JPG)
 ![Profile Page Edit](images/Profilepage_Edit.JPG)

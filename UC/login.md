@@ -21,7 +21,7 @@ This use case describes the log in process of the user for the CookieBook applic
 ## 2. Flow of Events
 ### 2.1 Basic Flow
 #### 2.1.1 Activity Diagram
-![Activity Diagram](images/UCD_Login.JPG)
+![Activity Diagram](images/UCD_Login_New.JPG)
 #### 2.1.2 Mockup
 ![MockUp](images/Loginpage.JPG)
 ## 3. Special Requirements
