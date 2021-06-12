@@ -1,7 +1,7 @@
 # Cookiebook
 ## Use Case Specification: Search for Recipe
 ### Table of Contents
-- [1. Specification - Share Recipe](#1-specification-SearchRecipe)
+- [1. Specification - Search for recipe](#1-specification-SearchRecipe)
     - [1.1 Brief Description](#11-brief-description)
 - [2. Flow of Events](#2-flow-of-events)
     - [2.1 Basic Flow](#21-basic-flow)
