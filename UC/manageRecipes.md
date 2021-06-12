@@ -12,7 +12,7 @@
 - [6. Extension Points](#6-extension-points)
 - [7. Function Points](#7-function-points)
 
-## 1. Specification - Edit profile
+## 1. Specification - Manage recipe
 ### 1.1 Brief Description
 This use case allows the user to view recipes, add new recipes and edit them. It also allows the user to delete selected recipe from CookieBook.
 ## 2. Flow of Events
