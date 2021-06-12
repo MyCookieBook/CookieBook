@@ -87,7 +87,7 @@ We use MySQL as our Database.
 - [UC Login](../UC/login.md)
 - [UC Edit profile](../UC/editProfile.md)
 - [UC Manage recipes](../UC/manageRecipes.md)
-- [UC Bookmark favorite] (../UC/bookmarkFavorite.md)
+- [UC Bookmark favorite](../UC/bookmarkFavorite.md)
 - [UC Search recipe](../UC/searchRecipe.md)
 
 ## 5. Logical View
