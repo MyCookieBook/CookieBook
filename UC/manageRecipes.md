@@ -1,7 +1,7 @@
 # Cookiebook
-## Use Case Specification: Search for Recipe
+## Use Case Specification: Manage recipe
 ### Table of Contents
-- [1. Specification - Manage recipes](#1-specification-manage-recipes)
+- [1. Specification - Manage recipe](#1-specification-manage-recipes)
     - [1.1 Brief Description](#11-brief-description)
 - [2. Flow of Events](#2-flow-of-events)
     - [2.1 Basic Flow](#21-basic-flow)
