@@ -39,4 +39,4 @@ The profile of the user has been saved and updated on the server.
 ### 5.2 Cancel changes
 The user can cancel changes.
 ## 6. Function Points
-tbd
+![Function Points](images/editProfile_fp.JPG)

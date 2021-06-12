@@ -37,4 +37,4 @@ The main preconditions for this use case are:
 The main postconditions for this use case are:
 The user gets a recipes list, where the keyword is in the title, other, material, ingredients and steps.
 ## 6. Function Points
-tbd                                                                                                                                                        
+![Function Points](images/UC_searchRecipe_fp.png)                                                                                                                                               
