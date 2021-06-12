@@ -39,18 +39,16 @@ MyCookieBook | Software Requirements Specification
 ## 1. Introduction
 
 ### 1.1 Purpose
-This Software Requirements Specification (SRS) gives a general overview over the MyCookieBook project. It explains our vision and includes detailed information about the features the project will contain.
+This Software Requirements Specification (SRS) gives a general overview over the CookieBook project. It explains our vision and includes detailed information about the features the project will contain.
 
 ### 1.2 Scope
-The project MyCookieBook is a web-application. 
+The project CookieBook is a web-application. 
 The web-application consists of the following features:
-* Account system where users can create accounts to save and share their recipes 
-* Friends list
-* Create recipe
-* Share recipe
-* Edit recipe
-* Delete recipe
-* Bookmark favourite recipe
+* Account system where users can create accounts to save their recipes: register, login, logout
+* Edit profile
+* CRUD recipe
+* Bookmark favorite recipe
+* Search for recipe
 * Leave comments and likes (optional)
 * Step by step instruction (optional)
 * Send request to friends' recipe (optional)
@@ -79,8 +77,7 @@ The following chapters give an overview of this project with our vision based on
 ### 2.1 Vision
 The idea is to get an overview about tons of different recipes, which are scattered everywhere.
 
-In this case we want to develop a web application ‘MyCookieBook’ which allows us to create and save recipes online where they are always accessible. In addition it is possible to share your favourite recipes with your family and friends. That simplifies spreading the recipes.
-
+In this case we want to develop a web application ‘CookieBook’ which allows us to create and save recipes online where they are always accessible. In addition it is possible to search for your  recipes by keywords and mark them favorite.
 Have a look at our [blog](https://mycookiebook.wordpress.com/) for more background information.
 ### 2.2 Use Case Diagram
 We created an overall use case diagram to have a better overview. 
@@ -94,15 +91,15 @@ We created an overall use case diagram to have a better overview.
 
 Technologies we are going to use:
 
-Backend: Java
+Backend: Java, SpringBoot Framework
 
-Frontend: Angular, CSS, HTML, Java, SpringBoot
+Frontend: Angular, CSS, HTML,
 
 Database: MySQL
 
 Testing: JUnit, Mockito
 
-IDE: IntelliJ, Eclipse
+IDE: IntelliJ
 
 Project Management: YouTrack, Github
 
@@ -119,9 +116,9 @@ We need an account system to give the users access for creating, sharing and com
 [The use case specification can be found here](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/UC/editProfile.md)
 ### 3.1.4 Manage a recipe
 [The use case specification can be found here](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/UC/manageRecipes.md)
-### 3.1.5 Share a recipe
-The user has the option to share recipes with selected friends and family members. If the user shares his recipe with someone, receiving user gets the shared recipe in his own CookieBook.
-[The use case specification can be found here](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/UC/ShareRecipe.md)
+### 3.1.5 Search for recipe
+The user has the option to search for recipes by keywords. 
+[The use case specification can be found here](UC/searchRecipe.md)
 ### 3.1.6 Bookmark favourite recipe
 The user can bookmark his favourite recipe to have faster access.
 ### 3.1.7 Leave comments and likes (optional)
@@ -154,11 +151,11 @@ The response time should be as low as possible.
 ### 3.4.2 Server availability
 The server should always be online to provide access to data.
 ### 3.4.3 Memory
-(tbd)
+n/a
 ### 3.5 Supportability
-(tbd)
+n/a
 ### 3.6 Design Constraints
-(tbd)
+n/a
 ### 3.7 On-line User Documentation and Help System Requirements
 We are going to focus on building an intuitive modern-looking web-application to allow users to use our website without problems. We will also implement an "FAQ" that contains instructions on how to use the application, features and leave our contacts for possible questions. 
 ### 3.8 Purchased Components
@@ -173,7 +170,7 @@ The user interfaces that will be implemented:
 #### 3.9.2 Hardware Interfaces
 n/a
 #### 3.9.3 Software Interfaces
-MyCookieBook is a web-application, so it should run in any browser. We will test our web-application on Safari, Chrome, FireFox, Microsoft Edge.
+CookieBook is a web-application, so it should run in any browser. We will test our web-application on Safari, Chrome, FireFox, Microsoft Edge.
 #### 3.9.4 Communications Interfaces
 n/a
 ### 3.10 Licensing Requirements

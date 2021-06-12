@@ -48,8 +48,8 @@ Title | Date | Publishing organization |
 --- | :---:  | ---
 [MyCookieBook Blog](https://mycookiebook.wordpress.com/) | 03.10.2020 | MyCookieBook-Team  
 [YouTrack Instance ](https://dhbw-karlsruhe.myjetbrains.com/youtrack/dashboard?id=daa9d0a7-920f-4823-8c67-75f6c7c3bf62) | 05.10.2020 | MyCookieBook-Team  
-[SRS](../SRS/SRS.md) | 18.10.2020 | MyCookieBook-Team  
-[SAD](../SAD/SAD.md) | 20.11.2020 | MyCookieBook-Team  
+[SRS](../SRS/SRS.md) | 12.06.2021 | MyCookieBook-Team  
+[SAD](../SAD/SAD.md) | 12.06.2021 | MyCookieBook-Team  
 ### 1.5 Overview
 This SAD includes all the necessary architectural details of the project MyCookieBook. It contains a database diagram, that gives an overview about the structure of the project. Also architectural representation and goals are represented in this document.
 
@@ -87,7 +87,7 @@ We use MySQL as our Database.
 - [UC Edit profile](../UC/editProfile.md)
 - [UC Manage recipes](../UC/manageRecipes.md)
 - [UC Login](../UC/login.md)
-- [UC share recipe](../UC/ShareRecipe.md)
+- [UC Search recipe](../UC/searchRecipe.md)
 
 ## 5. Logical View
 # 5.1 Overview
@@ -121,6 +121,6 @@ Our currently class diagram with the adapter design pattern is represented in th
 ![DB Scheme](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/Diagrams/DB_Scheme.png)
 
 ## 10. Size and Performance
-tbd
+n/a
 ## 11. Quality
-tbd
+n/a
