@@ -23,8 +23,7 @@ This use case describes the search for recipe process for the CookieBook applica
 #### 2.1.1 Activity Diagram
 ![Activity Diagram](images/UC_SearchRecipe_New.JPG)
 #### 2.1.2 Mockup
-![MockUp_ShareView](images/)
-![MockUp_GetView](images/)
+![MockUp_GetView](images/MockupSearchRecipe.png)
 ## 3. Special Requirements
 n/a
 ## 4. Preconditions
