@@ -21,7 +21,7 @@ This use case describes the bookmark a recipe as favorite process for the Cookie
 ## 2. Flow of Events
 ### 2.1 Basic Flow
 #### 2.1.1 Activity Diagram
-![Activity Diagram](images/UCD_bookmarkRecipe.JPG)
+![Activity Diagram](images/UCD_BookmarkRecipe.JPG)
 #### 2.1.2 Mockup
 ![MockUp_ShareView](images/BookmarkRecipe_Detail.JPG)
 ![MockUp_GetView](images/BookmarkRecipe_Overview.JPG)
