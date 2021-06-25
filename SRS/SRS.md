@@ -118,7 +118,7 @@ We need an account system to give the users access for creating, sharing and com
 [The use case specification can be found here](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/UC/manageRecipes.md)
 ### 3.1.5 Search for recipe
 The user has the option to search for recipes by keywords. 
-[The use case specification can be found here](UC/searchRecipe.md)
+[The use case specification can be found here](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/UC/searchRecipe.md)
 ### 3.1.6 Bookmark favourite recipe
 The user can bookmark his favourite recipe to have faster access.
 ### 3.1.7 Leave comments and likes (optional)
