@@ -42,15 +42,13 @@ MyCookieBook | Software Requirements Specification
 This Software Requirements Specification (SRS) gives a general overview over the MyCookieBook project. It explains our vision and includes detailed information about the features the project will contain.
 
 ### 1.2 Scope
-The project MyCookieBook is a web-application. 
+The project CookieBook is a web-application. 
 The web-application consists of the following features:
-* Account system where users can create accounts to save and share their recipes 
-* Friends list
-* Create recipe
-* Share recipe
-* Edit recipe
-* Delete recipe
-* Bookmark favourite recipe
+* Account system where users can create accounts to save their recipes: register, login, logout
+* Edit profile
+* CRUD recipe
+* Bookmark favorite recipe
+* Search for recipe
 * Leave comments and likes (optional)
 * Step by step instruction (optional)
 * Send request to friends' recipe (optional)
@@ -70,7 +68,7 @@ The web-application consists of the following features:
 | Title                                                                           | Date       | Publishing organization   |
 | --------------------------------------------------------------------------------|:----------:| ------------------------- |
 | [MyCookieBook Blog](https://mycookiebook.wordpress.com)                                                                    | 17.10.2020 | Wordpress                  |
-| [Github](https://github.com/MyCookieBook)                                                                    | 17.10.2020 | GitHub                  |
+| [Github](https://github.com/MyCookieBook)                                                                    | 25.06.2021 | GitHub                  |
 
 ### 1.5 Overview
 The following chapters give an overview of this project with our vision based on the overall use case diagram. It also contains information about the software requirements specification.
@@ -79,12 +77,13 @@ The following chapters give an overview of this project with our vision based on
 ### 2.1 Vision
 The idea is to get an overview about tons of different recipes, which are scattered everywhere.
 
-In this case we want to develop a web application ‘MyCookieBook’ which allows us to create and save recipes online where they are always accessible. In addition it is possible to share your favourite recipes with your family and friends. That simplifies spreading the recipes.
+In this case we want to develop a web application ‘CookieBook’ which allows us to create and save recipes online where they are always accessible. In addition it is possible to search for your  recipes by keywords and mark them favorite.
 
 Have a look at our [blog](https://mycookiebook.wordpress.com/) for more background information.
+
 ### 2.2 Use Case Diagram
 We created an overall use case diagram to have a better overview. 
-![OUCD](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/UC/images/OUCD_Mar_30.JPG)
+![OUCD](../images/OUCD_Mar_30.JPG)
 
 * Yellow: Planned until the end of december
 * Purple: Planned until the end of june
@@ -92,17 +91,19 @@ We created an overall use case diagram to have a better overview.
 
 ### 2.3 Technology Stack
 
-Technologies we are going to use:
+Technologies we use:
 
-Backend: Java
+Backend: Java, SpringBoot Framework
 
-Frontend: Angular, CSS, HTML, Java, SpringBoot
+Frontend: Angular, CSS, HTML
 
 Database: MySQL
 
+Hosting: Heroku
+
 Testing: JUnit, Mockito
 
-IDE: IntelliJ, Eclipse
+IDE: IntelliJ
 
 Project Management: YouTrack, Github
 
@@ -114,16 +115,15 @@ Project Management: YouTrack, Github
 ### 3.1.2 Login 
 [The use case specification can be found here](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/UC/login.md)
 ### 3.1.2 User account
-We need an account system to give the users access for creating, sharing and commenting recipes. 
+We need an account system to give the users access for managing recipes, edit profile, bookmarking recipes as favorite and searching for recipes. 
 ### 3.1.3 Edit Profile
 [The use case specification can be found here](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/UC/editProfile.md)
 ### 3.1.4 Manage a recipe
 [The use case specification can be found here](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/UC/manageRecipes.md)
-### 3.1.5 Share a recipe
-The user has the option to share recipes with selected friends and family members. If the user shares his recipe with someone, receiving user gets the shared recipe in his own CookieBook.
-[The use case specification can be found here](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/UC/ShareRecipe.md)
+### 3.1.5 Search for recipe
+[The use case specification can be found here](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/UC/SearchRecipe.md)
 ### 3.1.6 Bookmark favourite recipe
-The user can bookmark his favourite recipe to have faster access.
+[The use case specification can be found here](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/UC/bookmarkFavorite.md)
 ### 3.1.7 Leave comments and likes (optional)
 The user is able to comment and like shared recipes.
 ### 3.1.8 Special view of step by step instruction (optional)
@@ -135,45 +135,46 @@ It could be possible to share all recipes from the CookieBook with the selected 
 
 ## 3.2 Usability
 ### 3.2.1 Intuitive user guidance
-We want to develop an intuitive web-application which is as easy as possible to use and gives the user the opportunity to save recipes in his own Cookiebook in order to have recipes at one place instead of having a lot of notes somewhere at home.
+We develop an intuitive web-application which is as easy as possible to use and gives the user the opportunity to save recipes in his own Cookiebook in order to have recipes at one place instead of having a lot of notes somewhere at home.
 ### 3.2.2 FAQ
-We will implement a FAQ to help the user on using the web-application. 
+We implement a FAQ to help the user on using the web-application. 
 ### 3.2.3. Smartphonefriendly (optional)
-The web-application should be smartphonefriendly.
+The web-application is  smartphonefriendly.
 
 ## 3.3 Reliability
 ### 3.3.1 Server availability
- - The website servers should always be online so the user has always access to his CookieBook
+The website servers should always be online so the user has always access to his CookieBook
  
 ### 3.3.2 Data privacy
 The data of the user is visible only for him.
 
 ## 3.4 Perfomance
 ### 3.4.1 Response time
-The response time should be as low as possible. 
+The response time is as low as possible. 
 ### 3.4.2 Server availability
 The server should always be online to provide access to data.
 ### 3.4.3 Memory
-(tbd)
+n/a
 ### 3.5 Supportability
-(tbd)
+n/a
 ### 3.6 Design Constraints
-(tbd)
+n/a
 ### 3.7 On-line User Documentation and Help System Requirements
-We are going to focus on building an intuitive modern-looking web-application to allow users to use our website without problems. We will also implement an "FAQ" that contains instructions on how to use the application, features and leave our contacts for possible questions. 
+We focus on building an intuitive modern-looking web-application to allow users to use our website without problems. We also implement an "FAQ" that contains instructions on how to use the application, features and leave our contacts for possible questions. 
 ### 3.8 Purchased Components
 n/a
 ### 3.9 Interfaces
 #### 3.9.1 User Interfaces
-The user interfaces that will be implemented:
+Implemented user interfaces:
  - Profile page
  - Recipe overview
- - Recipe categories
- ...
+ - Recipe categories and subcategories
+ - Search for recipe
+ - Edit profile page 
 #### 3.9.2 Hardware Interfaces
 n/a
 #### 3.9.3 Software Interfaces
-MyCookieBook is a web-application, so it should run in any browser. We will test our web-application on Safari, Chrome, FireFox, Microsoft Edge.
+MyCookieBook is a web-application, so it should run in any browser. We test our web-application on Safari, Chrome, FireFox, Microsoft Edge.
 #### 3.9.4 Communications Interfaces
 n/a
 ### 3.10 Licensing Requirements
@@ -183,4 +184,4 @@ CookieBook retains the rights on their logo.
 ### 3.12 Applicable Standards
 n/a
 ## 4. Supporting Information
-Please visit our [blog](https://mycookiebook.wordpress.com/), if you would like to know the progress of this project.
+Please visit our [blog](https://mycookiebook.wordpress.com/) for more information.
