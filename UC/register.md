@@ -21,7 +21,7 @@ This use case describes the registering process of the user to CookieBook applic
 ## 2. Flow of Events
 ### 2.1 Basic Flow
 #### 2.1.1 Activity Diagram
-![Activity Diagram](images/UCD_Register.JPG)
+![Activity Diagram](images/UCD_Register_New.JPG)
 #### 2.1.2 Mockup
 ![MockUp](images/Registerpage.JPG)
 ## 3. Special Requirements

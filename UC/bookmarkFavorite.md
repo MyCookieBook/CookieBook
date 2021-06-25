@@ -1,7 +1,7 @@
 # Cookiebook
-## Use Case Specification: Share Recipe
+## Use Case Specification: Bookmark favorite
 ### Table of Contents
-- [1. Specification - Share Recipe](#1-specification-ShareRecipe)
+- [1. Specification - Bookmark favorite](#1-specification-bookmarkFavorite)
     - [1.1 Brief Description](#11-brief-description)
 - [2. Flow of Events](#2-flow-of-events)
     - [2.1 Basic Flow](#21-basic-flow)
@@ -14,17 +14,17 @@
 - [6. Extension Points](#6-extension-points)
 - [7. Function Points](#7-function-points)
 
-## 1. Use Case Specification - Share Recipe
+## 1. Use Case Specification - Bookmark favorite
 ##### 1.1 Brief Description
-This use case describes the share recipe process for the CookieBook application.
+This use case describes the bookmark a recipe as favorite process for the CookieBook application.
 
 ## 2. Flow of Events
 ### 2.1 Basic Flow
 #### 2.1.1 Activity Diagram
-![Activity Diagram](images/UCD_ShareRecipe.JPG)
+![Activity Diagram](images/UCD_BookmarkRecipe.JPG)
 #### 2.1.2 Mockup
-![MockUp_ShareView](images/ShareRecipePage.JPG)
-![MockUp_GetView](images/ShareRecipe_PopUp.JPG)
+![MockUp_ShareView](images/BookmarkRecipe_Detail.JPG)
+![MockUp_GetView](images/BookmarkRecipe_Overview.JPG)
 ## 3. Special Requirements
 n/a
 ## 4. Preconditions
@@ -32,9 +32,10 @@ The main preconditions for this use case are:
 - The user has internet connection.
 - The user opens the web-application.
 - The user is logged in.
-- The user has opened a recipe.
+- The has recipes in his CookieBook.
+- The user selects a recipe.
 ## 5. Postcondition
 The main postconditions for this use case are:
- - Another user can save the recipe in their own CookieBook.
+The user marks a recipe as favorite and can access it faster.
 ## 6. Function Points
-tbd                                                                                                                                                        
+![Function Points](images/UC_bookmarkFavorite_fp_new.png)                                                                                                                                               

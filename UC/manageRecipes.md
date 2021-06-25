@@ -1,4 +1,7 @@
-- [1. Specification - Manage recipes](#1-specification-manage-recipes)
+# Cookiebook
+## Use Case Specification: Manage recipe
+### Table of Contents
+- [1. Specification - Manage recipe](#1-specification-manage-recipes)
     - [1.1 Brief Description](#11-brief-description)
 - [2. Flow of Events](#2-flow-of-events)
     - [2.1 Basic Flow](#21-basic-flow)
@@ -12,18 +15,19 @@
 - [6. Extension Points](#6-extension-points)
 - [7. Function Points](#7-function-points)
 
-## 1. Specification - Manage recipes
+## 1. Specification - Manage recipe
 ### 1.1 Brief Description
 This use case allows the user to view recipes, add new recipes and edit them. It also allows the user to delete selected recipe from CookieBook.
 ## 2. Flow of Events
 ### 2.1 Basic Flow
 #### 2.1.1 Activity Diagram
-![Activity Diagram](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/UC/images/UCD_ManageRecipe.JPG)
+![Activity Diagram](images/UCD_ManageRecipe_New.JPG)
 #### 2.1.2 Mockup
 ![Recipe Page](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/UC/images/Recipepage.JPG)
 ![Edit Recipe](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/UC/images/Recipepage_Edit_NewRecipe.JPG)
 
 ## 3. Special requirements
+n/a
 ### 4. Preconditions
 The main preconditions for this use case are:
 - The user has internet connection.
@@ -32,7 +36,7 @@ The main preconditions for this use case are:
 
 ## 5. Postconditions
 ### 5.1. Create recipe
-The user has the opportunity to add a recipe with step by step instruction including the ingredients and other descriptions (name of recipe, author, difficulty level and category).
+The user has the opportunity to add a recipe with step by step instruction including the ingredients and other descriptions (recipe title, author, difficulty level, category, subcategory and material).
 ### 5.2 View recipes
 The user can view recipes in his CookieBook.
 ### 5.3 Edit recipe

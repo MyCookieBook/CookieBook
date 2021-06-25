@@ -188,7 +188,7 @@ tbd
 ## 6.	Entry and Exit Criteria
 ### 6.1	Test Plan
 #### 6.1.1	Test Plan Entry Criteria
-Pushing new commits to gitlab will trigger the GitLab CI/CD pipeline.
+Pushing new commits to GitHub will trigger the GitHub CI/CD pipeline.
 #### 6.1.2	Test Plan Exit Criteria
 When all tests pass without throwing an exception.
 #### 6.1.3 Suspension and Resumption Criteria
@@ -215,7 +215,7 @@ n/a
 tbd
 
 #### 7.6.2	Additional Automated Functional Test Scripts
-The Test Scripts can be found <!--[here](https://github.com/nf3lix/Plandora/tree/master/app/src/androidTest/java/com/plandora)-->
+The Test Scripts can be found here.
 
 #### 7.6.3	Test Guidelines
 tbd
