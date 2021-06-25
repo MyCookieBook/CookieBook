@@ -112,7 +112,7 @@ This is our frontend (for now):
 n/a
 
 ## 7. Deployment View  
-Here you can see our deployement view diagram:
+Here you can see our deployment view diagram:
 
 ![Deployment view](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/Diagrams/DeploymentView.JPG)
 ## 8. Implementation View
