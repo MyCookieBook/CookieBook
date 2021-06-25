@@ -119,7 +119,7 @@ Here you can see our deployement view diagram:
 Our currently class diagram with the adapter design pattern is represented in the picture below. 
 ![Class-Diagram](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/Diagrams/Package%20restservice%20nachher.png)
 ## 9. Data View
-![DB Scheme](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/Diagrams/DB_Scheme.png)
+![DB Scheme](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/Diagrams/DB_Scheme.PNG)
 
 ## 10. Size and Performance
 n/a
