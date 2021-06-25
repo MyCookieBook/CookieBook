@@ -83,7 +83,7 @@ Have a look at our [blog](https://mycookiebook.wordpress.com/) for more backgrou
 
 ### 2.2 Use Case Diagram
 We created an overall use case diagram to have a better overview. 
-![OUCD](..UC/images/OUCD_Mar_30.JPG)
+![OUCD](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/newupdatedocs/UC/images/OUCD_Mar_30.JPG)
 
 * Yellow: Planned until the end of december
 * Purple: Planned until the end of june
