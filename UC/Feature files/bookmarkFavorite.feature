@@ -7,4 +7,3 @@ Feature: Bookmark favorite
     When I select a recipe
     And I click button with icon "heart"
     Then I bookmarked this recipe as favorite
-

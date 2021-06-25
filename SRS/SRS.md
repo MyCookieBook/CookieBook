@@ -39,7 +39,7 @@ MyCookieBook | Software Requirements Specification
 ## 1. Introduction
 
 ### 1.1 Purpose
-This Software Requirements Specification (SRS) gives a general overview over the MyCookieBook project. It explains our vision and includes detailed information about the features the project will contain.
+This Software Requirements Specification (SRS) gives a general overview over the CookieBook project. It explains our vision and includes detailed information about the features the project will contain.
 
 ### 1.2 Scope
 The project CookieBook is a web-application. 
@@ -77,7 +77,7 @@ The following chapters give an overview of this project with our vision based on
 ### 2.1 Vision
 The idea is to get an overview about tons of different recipes, which are scattered everywhere.
 
-In this case we want to develop a web application ‘CookieBook’ which allows us to create and save recipes online where they are always accessible. In addition it is possible to search for your  recipes by keywords and mark them favorite.
+In this case we develop a web application ‘CookieBook’ which allows us to create and save recipes online where they are always accessible. In addition it is possible to search for your  recipes by keywords and mark them favorite.
 
 Have a look at our [blog](https://mycookiebook.wordpress.com/) for more background information.
 
@@ -95,7 +95,7 @@ Technologies we use:
 
 Backend: Java, SpringBoot Framework
 
-Frontend: Angular, CSS, HTML
+Frontend: Angular, CSS, HTML,
 
 Database: MySQL
 
@@ -174,7 +174,7 @@ Implemented user interfaces:
 #### 3.9.2 Hardware Interfaces
 n/a
 #### 3.9.3 Software Interfaces
-MyCookieBook is a web-application, so it should run in any browser. We test our web-application on Safari, Chrome, FireFox, Microsoft Edge.
+CookieBook is a web-application, so it should run in any browser. We test our web-application on Safari, Chrome, FireFox, Microsoft Edge.
 #### 3.9.4 Communications Interfaces
 n/a
 ### 3.10 Licensing Requirements
