@@ -139,7 +139,10 @@ We need an account system to give the users access for managing recipes, edit pr
 Representaional State Transfer services are an architecture for communication between two systems. The REST principle provides an interface and is compatible with most systems. They are particularly suitable for web applications such as ours.
 
 ### 3.1.8 Parsing data
-- erklären was es macht
+All data are checked for correctness in the frontend at the beginning. This allows typing errors, too long entries and other errors to be intercepted and corrected directly by the user.
+Only then is the data forwarded to the backend and checked again for conformity with the data type of the database. They can then be saved.
+
+Conversely, the frontend receives the data as JSON and converts it back to a more suitable data type for further processing.
 
 ### 3.1.9 Providing data
 When the user with permission requests data from the frontend, then the backend responses to this request and sends data. This response provides a HTTP statuscode in any case: when the request is successfull or when the request fails.
@@ -192,10 +195,11 @@ Implemented user interfaces:
 #### 3.10.2 Hardware Interfaces
 n/a
 #### 3.10.3 Software Interfaces
-CookieBook is a web-application, so it should run in any browser. We test our web-application on Safari, Chrome, FireFox, Microsoft Edge. /n
+CookieBook is a web-application, so it should run in any browser. We test our web-application on Safari, Chrome, FireFox, Microsoft Edge. 
+
 For communication between the frontend (user view) and the backend, rest services are sent. This sends the frontend to the pool end after an action of the user. This responds with either a status message or an object that can be read from the frontend and passed on to the user.
 
-- ausführen, wie das BE funktioniert mit RESTservice etc
+
 - wie ist die verbindung aufgebaut zwischen BE und datenbank?
 - 
 #### 3.10.4 Communications Interfaces
