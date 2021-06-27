@@ -124,4 +124,4 @@ Our currently class diagram is represented in the picture below.
 ## 10. Size and Performance
 n/a
 ## 11. Quality
-n/a
+We made sure that a metrics tool is used as part of our deployment process on GitHub. Each pull request/commit is checked by codacy as described in our Test Plan. Furthermore each commit is checked by codecov. The overview page of codecov can be found on https://app.codecov.io/gh/MyCookieBook
