@@ -86,7 +86,7 @@ The idea is to get an overview about tons of different recipes, which are scatte
 
 In this case we develop a web application ‘CookieBook’ which allows us to create and save recipes online where they are always accessible. In addition it is possible to search for your  recipes by keywords and mark them favorite.
 
-Have a look at our [blog](https://mycookiebook.wordpress.com/) for more background information.
+Have a look at our [blog](https://mycookiebook.wordpress.com/blog/) for more background information.
 
 ### 2.2 Use Case Diagram
 We created an overall use case diagram to have a better overview. 
@@ -100,7 +100,7 @@ We created an overall use case diagram to have a better overview.
 
 Technologies we use:
 * Backend: Java including Jacoco, Gradle, Lombok, SpringBoot, Hibernate JPA, Swagger, Cucumber, JUnit, Mockito
-* Frontend: Angular, CSS, HTML,
+* Frontend: Angular, CSS, HTML, TS
 * Database: MySQL
 * Hosting: Heroku
 * Testing: JUnit, Mockito, Codecov metric for code coverage
@@ -109,7 +109,7 @@ Technologies we use:
 
 ### 2.4 Constraints
 
-Our database has a limit of xxx MiB. 
+Our database has a limit of 500 MiB. 
 
 ## 3. Specific Requirements
 The following section contains all of the functional and quality requirements of the system. It gives a detailed description
@@ -175,7 +175,7 @@ n/a
 ### 3.7 Design Constraints
 Our focus is to build a modern application with modern technologies. 
 ### 3.7.1 Spring Boot 
-
+Ausfüllen
 
 ### 3.8 On-line User Documentation and Help System Requirements
 We focus on building an intuitive modern-looking web-application to allow users to use our website without problems. We also implement an "FAQ" that contains instructions on how to use the application, features and leave our contacts for possible questions. 
@@ -184,11 +184,12 @@ n/a
 ### 3.10 Interfaces
 #### 3.10.1 User Interfaces
 Implemented user interfaces:
+ - Log In page
  - Profile page
- - Recipe overview
- - Recipe categories and subcategories
- - Search for recipe
- - Edit profile page 
+ - Recipe overview page
+ - Recipe datail page
+ - Bake recipe page
+ - Information pages 
 #### 3.10.2 Hardware Interfaces
 n/a
 #### 3.10.3 Software Interfaces
@@ -205,6 +206,7 @@ n/a
 
 ### 3.12 Legal, Copyright, and Other Notices
 CookieBook retains the rights on their logo.
+All other used pictures are linked to the website under '.../More'.
 
 ### 3.13 Applicable Standards
 n/a
