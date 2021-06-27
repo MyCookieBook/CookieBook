@@ -136,8 +136,7 @@ We need an account system to give the users access for managing recipes, edit pr
 [The use case specification can be found here](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/UC/bookmarkFavorite.md)
 
 ### 3.1.7 Reading data from the database through restservice
-- warum restservice?
-- was macht es?
+Representaional State Transfer services are an architecture for communication between two systems. The REST principle provides an interface and is compatible with most systems. They are particularly suitable for web applications such as ours.
 
 ### 3.1.8 Parsing data
 - erklären was es macht
@@ -175,7 +174,7 @@ n/a
 ### 3.7 Design Constraints
 Our focus is to build a modern application with modern technologies. 
 ### 3.7.1 Spring Boot 
-Ausfüllen
+Spring Boot is a framework for web applications. The development with Java is simplified and functionalities are made available.
 
 ### 3.8 On-line User Documentation and Help System Requirements
 We focus on building an intuitive modern-looking web-application to allow users to use our website without problems. We also implement an "FAQ" that contains instructions on how to use the application, features and leave our contacts for possible questions. 
@@ -194,6 +193,7 @@ Implemented user interfaces:
 n/a
 #### 3.10.3 Software Interfaces
 CookieBook is a web-application, so it should run in any browser. We test our web-application on Safari, Chrome, FireFox, Microsoft Edge.
+For communication between the frontend (user view) and the backend, rest services are sent. This sends the frontend to the pool end after an action of the user. This responds with either a status message or an object that can be read from the frontend and passed on to the user.
 
 - ausführen, wie das BE funktioniert mit RESTservice etc
 - wie ist die verbindung aufgebaut zwischen BE und datenbank?
