@@ -117,7 +117,7 @@ Here you can see our deployment view diagram:
 ![Deployment view](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/Diagrams/DeploymentView.JPG)
 ## 8. Implementation View
 Our currently class diagram is represented in the picture below. 
-![Class-Diagram](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/Diagrams/Package%20restservice%20nachher.png)
+![Class-Diagram](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/Diagrams/Package%20rstservice%20nachher.png)
 ## 9. Data View
 ![DB Scheme](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/Diagrams/DB_Scheme.PNG)
 
