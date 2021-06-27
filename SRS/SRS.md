@@ -199,9 +199,8 @@ CookieBook is a web-application, so it should run in any browser. We test our we
 
 For communication between the frontend (user view) and the backend, rest services are sent. This sends the frontend to the pool end after an action of the user. This responds with either a status message or an object that can be read from the frontend and passed on to the user.
 
+The backend and the database running on different servers. JPA repository in SpringBoot Framework is used to retrieve data from the database.
 
-- wie ist die verbindung aufgebaut zwischen BE und datenbank?
-- 
 #### 3.10.4 Communications Interfaces
 Every HTTP request and response contains a JSON. Our project system is able to transfer all the needed data between backend and frontend by interpreting the content of this JSON.
 
