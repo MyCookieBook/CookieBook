@@ -123,7 +123,7 @@ Testing the backend with JUnit tests.
 
 ### 4.2	Outline of Other Candidates for Potential Inclusion
 Stress Testing the application and its servers.
-Findung security holes.
+Finding security holes.
 
 ### 4.3 Outline of Test Exclusions
 **n/a**
