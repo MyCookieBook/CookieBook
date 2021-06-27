@@ -281,9 +281,9 @@ Decides what tests should be automated vs. manual and creates automations.
 |---|---|---|---|---|
 | Run Cucumber Tests | 30.10.2020 | 30.10.2020 | 10.06.2021 | 10.12.2020   |
 | Having Unit Tests | 04.05.2021 | 02.05.2021   | 10.06.2021   | 25.06.2021   |
-| Having CI in Github | 04.05.2021 | tbd | 10.06.2021 | 20.06.2021 |
+| Having CI in Github | 04.05.2021 | 07.05.2021 | 10.06.2021 | 20.06.2021 |
 | Having Stress Tests | 04.06.2021 | 12.06.2021 | 10.06.2021 | 14.06.2021 |
-| 70% Unit Test Coverage | 04.05.2021 | tbd | 18.06.2021 | 25.06.2021 |
+| 70% Unit Test Coverage | 04.05.2021 | 07.05.2021 | 18.06.2021 | 25.06.2021 |
 
 ## 12.	Risks, Dependencies, Assumptions, and Constraints
 | Risk | Mitigation Strategy	| Contingency (Risk is realized) |
