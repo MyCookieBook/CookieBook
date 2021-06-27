@@ -192,7 +192,7 @@ Implemented user interfaces:
 #### 3.10.2 Hardware Interfaces
 n/a
 #### 3.10.3 Software Interfaces
-CookieBook is a web-application, so it should run in any browser. We test our web-application on Safari, Chrome, FireFox, Microsoft Edge.
+CookieBook is a web-application, so it should run in any browser. We test our web-application on Safari, Chrome, FireFox, Microsoft Edge. /n
 For communication between the frontend (user view) and the backend, rest services are sent. This sends the frontend to the pool end after an action of the user. This responds with either a status message or an object that can be read from the frontend and passed on to the user.
 
 - ausführen, wie das BE funktioniert mit RESTservice etc
