@@ -71,10 +71,11 @@ The web-application consists of the following features:
 | FAQ       | Frequently asked questions    |
 
 ### 1.4 References
-| Title                                                                           | Date       | Publishing organization   |
-| --------------------------------------------------------------------------------|:----------:| ------------------------- |
-| [MyCookieBook Blog](https://mycookiebook.wordpress.com)                                                                    | 17.10.2020 | Wordpress                  |
-| [Github](https://github.com/MyCookieBook)                                                                    | 25.06.2021 | GitHub                  |
+| Title                                                                                                                       | Date       | Publishing organization |
+| ----------------------------------------------------------------------------------------------------------------------------|:----------:| ------------------------|
+| [MyCookieBook Blog](https://mycookiebook.wordpress.com)                                                                     | 17.10.2020 | Wordpress               |
+| [Github](https://github.com/MyCookieBook)                                                                                   | 25.06.2021 | GitHub                  |
+| [MyCookieBook Dashboard](https://dhbw-karlsruhe.myjetbrains.com/youtrack/dashboard?id=daa9d0a7-920f-4823-8c67-75f6c7c3bf62) | 17.10.2020 | YouTrack                |
 
 ### 1.5 Overview
 The following chapters give an overview of this project with our vision based on the overall use case diagram. It also contains information about our detailed software requirements.
