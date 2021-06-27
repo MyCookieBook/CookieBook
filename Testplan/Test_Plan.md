@@ -168,7 +168,7 @@ Unit Tests
 **n/a**
 
 #### 5.2.7 Stress Testing
-tbd
+[Stress Test Document](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/Testplan/User%20Stress%20Test.pdf)
 
 #### 5.2.8	Volume Testing
 **n/a**
@@ -229,7 +229,7 @@ Developers should execute tests locally before pushing source code. When pushing
 ## 9.	Environmental Needs
 This section presents the non-human resources required for the Test Plan.
 ### 9.1	Base System Hardware
-tbd
+**n/a**
 
 ### 9.2	Base Software Elements in the Test Environment
 The following base software elements are required in the test environment for this Test Plan.
@@ -266,7 +266,7 @@ Decides what tests should be automated vs. manual and creates automations.
 | Run Cucumber Tests | 30.10.2020 | 30.10.2020 | 10.06.2021 | tbd   |
 | Having Unit Tests | 04.05.2021 | 02.05.2021   | 10.06.2021   | tbd   |
 | Having CI in Github | 04.05.2021 | tbd | 10.06.2021 | tbd |
-| Having Stress Tests | 04.06.2021 | tbd | 10.06.2021 | tbd |
+| Having Stress Tests | 04.06.2021 | 12.06.2021 | 10.06.2021 | 14.06.2021 |
 | 50% Unit Test Coverage | 04.05.2021 | tbd | 18.06.2021 | tbd |
 
 ## 12.	Risks, Dependencies, Assumptions, and Constraints
