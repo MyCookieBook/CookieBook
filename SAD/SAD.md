@@ -105,9 +105,9 @@ Any actual manipulation of the model is handled by the backend.
 In this section you can find the generated class diagrams for backend and frontend.
 
 This is our backend (for now):
-![Backend](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/Diagrams/backend_24.12.2020.png)
+![Backend](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/Diagrams/Backend_MVC_classdiagram.png)
 This is our frontend (for now):
-![Frontend](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/Diagrams/frontend_24.12.2020.png)
+![Frontend](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/Diagrams/Frontend_Classdiagram.png)
 ## 6. Process View
 n/a
 
@@ -116,7 +116,7 @@ Here you can see our deployment view diagram:
 
 ![Deployment view](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/Diagrams/DeploymentView.JPG)
 ## 8. Implementation View
-Our currently class diagram with the adapter design pattern is represented in the picture below. 
+Our currently class diagram is represented in the picture below. 
 ![Class-Diagram](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/Diagrams/Package%20restservice%20nachher.png)
 ## 9. Data View
 ![DB Scheme](https://github.com/MyCookieBook/MyCookieBook-Documentation/blob/master/Diagrams/DB_Scheme.PNG)
